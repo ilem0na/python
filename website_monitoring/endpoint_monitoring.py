@@ -31,7 +31,7 @@ def restart_container():
     
 
 try:
-    r = requests.get('http://143.110.212.b172:8080')
+    r = requests.get('http://143.110.212.172:8080')
 
     status_code = r.status_code
 
